@@ -1,0 +1,90 @@
+{
+    "description": "fuelusumar",
+    "author": "",
+    "versions": [{
+        "name": "v1",
+        "controllers": [{
+            "name": "users",
+            "description": "system users",
+            "id": "user_id",
+            "author": "fuelusumar",
+            "actions": [{
+                "method": "POST",
+                "name": "create",
+                "id": false
+            }, {
+                "method": "PUT",
+                "name": "update",
+                "id": true
+            }, {
+                "method": "PATCH",
+                "name": "partial",
+                "id": true
+            }, {
+                "method": "DELETE",
+                "name": "delete",
+                "id": true
+            }],
+            "controllers": [{
+                "name": "reports",
+                "description": "report actions",
+                "id": "report_id",
+                "author": "fuelusumar",
+                "actions": [{
+                    "method": "GET",
+                    "name": "list",
+                    "id": false
+                }, {
+                    "method": "POST",
+                    "name": "create",
+                    "id": false
+                }, {
+                    "method": "GET",
+                    "name": "retrieve",
+                    "id": true
+                }, {
+                    "method": "PUT",
+                    "name": "update",
+                    "id": true
+                }, {
+                    "method": "PATCH",
+                    "name": "partial",
+                    "id": true
+                }, {
+                    "method": "DELETE",
+                    "name": "delete",
+                    "id": true
+                }]
+            }]
+        }, {
+            "name": "auth",
+            "description": "system authentication",
+            "author": "fuelusumar",
+            "actions": [{
+                "method": "POST",
+                "name": "login",
+                "append": true
+            }, {
+                "method": "POST",
+                "name": "signup",
+                "append": true
+            }, {
+                "method": "POST",
+                "name": "logout",
+                "append": true
+            }, {
+                "method": "POST",
+                "name": "forgot",
+                "append": true
+            }, {
+                "method": "GET",
+                "name": "reset",
+                "append": true
+            }, {
+                "method": "GET",
+                "name": "verify",
+                "append": true
+            }]
+        }]
+    }]
+}

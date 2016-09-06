@@ -1,0 +1,7 @@
+{
+    "PROTOCOL": "http",
+    "DOMAIN": "localhost",
+    "PAGE_SIZE": 25,
+    "POPULAR_SIZE": 60,
+    "QUERY_LIMIT": 75
+}
