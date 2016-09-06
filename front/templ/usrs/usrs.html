@@ -1,0 +1,13 @@
+<nav ng-show="nav" ng-include="'templ/nav.html'"></nav>
+<header ng-show="header" ng-include="'templ/header.html'"></header>
+<main class="container-fluid main">
+    <div class="container">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <span>{{msg}}</span>
+        <div ng-repeat="usr in usrs">
+            <usr-card usr="usr"></usr-card>
+        </div>
+    </div>
+</main>
+<footer ng-show="footer" ng-include="'templ/footer.html'"></footer>

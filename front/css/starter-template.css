@@ -1,0 +1,45 @@
+body {
+    padding-top: 50px;
+}
+
+main {
+    background-color: #dddddd;
+    min-height: 60vh;
+}
+
+header {
+    background-color: #122b40;
+    font-weight: bold;
+    padding: 20px 5px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: large;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px 0px 8px;
+}
+
+header h2 {
+    color: #9acfea;
+    font-size: small;
+    font-weight: 200;
+    padding: 0px;
+    margin: 0px 0px 4px;
+}
+
+header h3 {
+    color: #1b6d85;
+    font-size: smaller;
+    font-weight: 200;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #222222;
+    color: #dddddd;
+    font-weight: bold;
+    min-height: 20vh
+}
